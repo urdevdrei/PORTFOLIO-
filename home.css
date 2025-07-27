@@ -49,9 +49,8 @@ body {
 }
 
 
-
 .hero {
-  background-image: url(rrt1.png);
+  background-image: url(public/Images/rrt1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

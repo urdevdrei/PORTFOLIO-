@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="home.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.cdnfonts.com/css/fredoka-one" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/gelasio" rel="stylesheet">
+
+    <!-- AOS CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+                
+                
+<head>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: false,  
+    mirror: true  
+  });
+</script>
+
+
+
+<div id="nav-bar">
+    <a href="#">HOME</a>
+    <a href="#about-me">ABOUT</a>
+    <a href="#my-skills">SKILLS</a>
+    <a href="#my-projects">PROJECTS</a>
+    <a href="#contact-me">CONTACT</a>
+</div>
+
+    <div class="hero">
+    <div class="content">
+      <p>HELLO! THIS IS ANDREI</p>
+      <h1>FUTURE<br>SOFTWARE DEVELOPER</h1>
+      <div class="buttons">
+        <a href="#" class="btn">Hire Me</a>
+        <a href="#" class="btn secondary" id="downloadCV">Download CV</a>
+      </div>
+    </div>
+  </div>
+
+ <div id="about-me">
+  <div id="about-container" data-aos="fade-right">
+    <div class="about-card">
+      <img src="javascript-logo-0 (1).png" alt="Andrei Santos">
+    </div>
+  </div>
+
+  <div id="about-description" data-aos="fade-left">
+    <h1 id="about-title">ABOUT ME</h1>
+    <p id="about-profile">
+     Hi, I'm Andrei Santos, an undergraduate at the University of Santo Tomas with a passion for web development. I'm currently focused on improving my skills in HTML, CSS, JavaScript, and exploring tools like React and Git. I enjoy building personal projects to apply what I learn. I also value teamwork, communication, and time management. I'm now seeking internship or entry-level opportunities where I can grow, contribute to real projects, and build a strong foundation in the tech industry.
+    </p>
+  </div>
+</div>
+
+
+  <div id="my-skills">
+  <div class="skills-title" data-aos="fade-down">
+    <h1>MY SKILLS</h1>
+  </div>
+
+  <div class="skills-row">
+    <div class="skills-container" data-aos="zoom-in">
+      <div class="card-content">
+        <img src="HTML5_badge.png" alt="HTML5">
+      </div>
+    </div>
+
+    <div class="skills-container" data-aos="zoom-in" data-aos-delay="100">
+      <div class="card-content">
+        <img src="css.webp" alt="CSS3">
+      </div>
+    </div>
+
+    <div class="skills-container" data-aos="zoom-in" data-aos-delay="200">
+      <div class="card-content">
+        <img src="javascript-logo-0 (1).png" alt="JavaScript">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="my-projects">
+  <div class="project-title" data-aos="fade-down">
+    <h1 id="title-project">FEATURED PROJECTS</h1>
+  </div>
+
+  <div class="projects-row">
+    <!-- Project 1 -->
+    <div class="projects-container" data-aos="fade-up">
+      <div class="flip-wrapper">
+        <div class="flip-inner">
+          <!-- Front -->
+          <div class="flip-front">
+            <div class="small-box">
+              <h1 class="small-box-h1">EcoKonek</h1>
+              <p class="small-box-p">A sustainability app</p>
+            </div>
+          </div>
+          <!-- Back -->
+          <div class="flip-back">
+            <div class="small-box">
+              <h1 class="small-box-h1">FULL STACK DEV</h1>
+              <p class="small-box-p">Built with React, JavaScript, and Tailwind CSS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="projects-container" data-aos="fade-up" data-aos-delay="100">
+      <div class="flip-wrapper">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <div class="small-box">
+              <h1 class="small-box-h1">My Portfolio</h1>
+              <p class="small-box-p">Personal website</p>
+            </div>
+          </div>
+          <div class="flip-back">
+            <div class="small-box">
+              <h1 class="small-box-h1">FULL STACK DEV </h1>
+              <p class="small-box-p">Created using HTML, CSS, and JavaScript.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="projects-container" data-aos="fade-up" data-aos-delay="200">
+      <div class="flip-wrapper">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <div class="small-box">
+              <h1 class="small-box-h1">TITLE</h1>
+              <p class="small-box-p">Short summary</p>
+            </div>
+          </div>
+          <div class="flip-back">
+            <div class="small-box">
+              <h1 class="small-box-h1">More Info</h1>
+              <p class="small-box-p">Additional description or tools used.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="contact-me">
+  <div class="contact-title" data-aos="fade-down">
+    <h1>CONTACT</h1>
+  </div>
+
+  <div class="contact-container">
+    <div class="contact-left" data-aos="fade-right">
+  <div id="contact-logo">
+
+    <a href="https://maps.google.com/?q=Pacific+Skyloft" target="_blank" class="contact-item">
+      <img src="LOCATION FOR PORTFOLIO.png" class="contact-img" alt="">
+      <span class="contact-label">Pacific Skyloft</span>
+    </a>
+
+    <a href="tel:09761606527" class="contact-item">
+      <img src="Call-512.webp" class="contact-img" alt="">
+      <span class="contact-label">09761606527</span>
+    </a>
+
+    <a href="mailto:paulandrei.santos.cics@ust.edu.ph" class="contact-item">
+      <img src="email-icon-black-28.jpg" class="contact-img" alt="">
+      <span class="contact-label">paulandrei.santos.cics@ust.edu.ph</span>
+    </a>
+
+    <a href="https://instagram.com/dreiisnts" target="_blank" class="contact-item">
+      <img src="IG LOGO.png" class="contact-img" alt="">
+      <span class="contact-label">@dreiisnts</span>
+    </a>
+
+    <a href="https://www.facebook.com/Dreiisnts/" target="_blank" class="contact-item">
+      <img src="fb logo.png" class="contact-img" alt="">
+      <span class="contact-label">Andrei Santos</span>
+    </a>
+
+  </div>
+</div>
+
+
+   <div class="contact-right" data-aos="fade-left">
+  <form action="" method="POST">
+    <input type="hidden" name="" value="">
+    
+    <div class="input-row">
+      <input type="text" name="first_name" placeholder="First Name" required>
+      <input type="text" name="last_name" placeholder="Last Name" required>
+    </div>
+
+    <input type="email" name="email" placeholder="Email" required>
+    
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    
+    <div class="button-wrapper">
+      <button type="submit">Send</button>
+    </div>
+  </form>
+</div>
+
+
+
+</body>
+</html>
